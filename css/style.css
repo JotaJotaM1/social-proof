@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.list {
+  display: flex;
+}
+.list > li {
+  padding: 5px;
+}
+
+.containerlist {
+  margin: 0;
+}
