@@ -1,68 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
 }
-main{
+main {
   height: auto;
-  width: auto;  
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.general{
+.general {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sectionone{
+.sectionone {
   margin: 15% 4% 5% 4%;
   text-align: center;
 }
-h1{
+h1 {
   font-size: 30px;
   margin: 20px 35px;
-  color:hsl(300, 43%, 22%);
+  color: hsl(300, 43%, 22%);
 }
-.texttitle{
+.texttitle {
   color: hsl(303, 10%, 53%);
   margin: 30px 0px;
   font-size: 15px;
 }
-.ullist{
-  padding:10px 0;
+.ullist {
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-h4{
+h4 {
   padding-bottom: 10px;
-  color:hsl(300, 43%, 22%);
+  color: hsl(300, 43%, 22%);
 }
-.ullist > li{
+.ullist > li {
   padding: 5px;
 }
-.containerlist{
+.containerlist {
   margin: 20px 0;
   background-color: hsl(300, 24%, 96%);
   border-radius: 0.5rem;
 }
-.sectiontwo{
+.sectiontwo {
   margin: 2% 4%;
 }
-.containerface{
+.containerface {
   background-color: hsl(300, 43%, 22%);
   margin-top: 20px;
   display: flex;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-.comment{
+.comment {
   color: hsl(300, 24%, 96%);
   padding: 30px 35px;
   background-color: hsl(300, 43%, 22%);
@@ -70,13 +70,15 @@ h4{
   border-bottom-right-radius: 1rem;
   font-size: 15px;
 }
-.colton, .irene, .anne{
+.colton,
+.irene,
+.anne {
   margin-top: 30px;
   margin-left: 40px;
   height: 3rem;
   border-radius: 100%;
 }
-h5{
+h5 {
   color: white;
   margin-left: 20px;
   margin-top: 40px;
@@ -84,8 +86,7 @@ h5{
   justify-items: center;
   align-items: center;
 }
-.verified{
+.verified {
   margin-top: 0;
   color: hsl(333, 80%, 67%);
 }
-
