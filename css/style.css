@@ -8,20 +8,16 @@
   font-family: "Spartan", sans-serif;
 }
 main {
+  margin: auto;
   height: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.general {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .sectionone {
-  margin: 15% 4% 5% 4%;
+  margin: 2% 4%;
   text-align: center;
 }
 h1 {
@@ -34,7 +30,9 @@ h1 {
   margin: 30px 0px;
   font-size: 15px;
 }
-.ullist {
+.ullistone,
+.ullisttwo,
+.ullistthree {
   padding: 10px 0;
   display: flex;
   justify-content: center;
@@ -44,7 +42,13 @@ h4 {
   padding-bottom: 10px;
   color: hsl(300, 43%, 22%);
 }
-.ullist > li {
+.ullistone > li {
+  padding: 5px;
+}
+.ullisttwo > li {
+  padding: 5px;
+}
+.ullistthree > li {
   padding: 5px;
 }
 .containerlist {
@@ -89,4 +93,61 @@ h5 {
 .verified {
   margin-top: 0;
   color: hsl(333, 80%, 67%);
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin: 2% 0;
+  }
+  .sectionone {
+    margin: auto;
+    display: flex;
+  }
+  .contatitletex {
+    margin-right: 100px;
+    text-align: left;
+    width: 433px;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .texttitle {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .containerlist {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    display: flex;
+  }
+  h4 {
+    padding: 15px;
+  }
+  .containerfatherlist {
+    display: block;
+  }
+  .ullisttwo {
+    margin-left: 50px;
+  }
+  .ullistthree {
+    margin-left: 100px;
+  }
+  .sectiontwo {
+    font-size: 14px;
+    width: 1010px;
+    gap: 20px;
+    margin: auto;
+    display: flex;
+  }
+  .comment {
+    line-height: 17px;
+    font-size: 11px;
+  }
+  .containerirene {
+    margin-top: 40px;
+  }
+  .containeranne {
+    margin-top: 45px;
+  }
 }
